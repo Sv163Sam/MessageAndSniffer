@@ -1,4 +1,6 @@
 /Users/vladimirskobcov/Desktop/Labs/Crypto/Crypto_1-3/cmake-build-debug/CMakeFiles/Server.dir
-/Users/vladimirskobcov/Desktop/Labs/Crypto/Crypto_1-3/cmake-build-debug/CMakeFiles/Client.dir
+/Users/vladimirskobcov/Desktop/Labs/Crypto/Crypto_1-3/cmake-build-debug/CMakeFiles/Client_1.dir
+/Users/vladimirskobcov/Desktop/Labs/Crypto/Crypto_1-3/cmake-build-debug/CMakeFiles/Client_2.dir
+/Users/vladimirskobcov/Desktop/Labs/Crypto/Crypto_1-3/cmake-build-debug/CMakeFiles/Sniffer.dir
 /Users/vladimirskobcov/Desktop/Labs/Crypto/Crypto_1-3/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/vladimirskobcov/Desktop/Labs/Crypto/Crypto_1-3/cmake-build-debug/CMakeFiles/rebuild_cache.dir

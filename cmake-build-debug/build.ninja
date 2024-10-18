@@ -52,7 +52,7 @@ build cmake_object_order_depends_target_Server: phony || CMakeFiles/Server.dir
 build CMakeFiles/Server.dir/Server/server.cpp.o: CXX_COMPILER__Server_Debug /Users/vladimirskobcov/Desktop/Labs/Crypto/Crypto_1-3/Server/server.cpp || cmake_object_order_depends_target_Server
   DEP_FILE = CMakeFiles/Server.dir/Server/server.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  INCLUDES = -I/opt/homebrew/Cellar/openssl@3/3.3.2/include
+  INCLUDES = -I/opt/homebrew/Cellar/openssl@3/3.3.2/include -I/opt/homebrew/Cellar/libpcap/1.10.5/include
   OBJECT_DIR = CMakeFiles/Server.dir
   OBJECT_FILE_DIR = CMakeFiles/Server.dir/Server
 
@@ -74,37 +74,103 @@ build Server: CXX_EXECUTABLE_LINKER__Server_Debug CMakeFiles/Server.dir/Server/s
   TARGET_PDB = Server.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target Client
+# Object build statements for EXECUTABLE target Client_1
 
 
 #############################################
-# Order-only phony target for Client
+# Order-only phony target for Client_1
 
-build cmake_object_order_depends_target_Client: phony || CMakeFiles/Client.dir
+build cmake_object_order_depends_target_Client_1: phony || CMakeFiles/Client_1.dir
 
-build CMakeFiles/Client.dir/Client/client.cpp.o: CXX_COMPILER__Client_Debug /Users/vladimirskobcov/Desktop/Labs/Crypto/Crypto_1-3/Client/client.cpp || cmake_object_order_depends_target_Client
-  DEP_FILE = CMakeFiles/Client.dir/Client/client.cpp.o.d
+build CMakeFiles/Client_1.dir/Client_1/client_1.cpp.o: CXX_COMPILER__Client_1_Debug /Users/vladimirskobcov/Desktop/Labs/Crypto/Crypto_1-3/Client_1/client_1.cpp || cmake_object_order_depends_target_Client_1
+  DEP_FILE = CMakeFiles/Client_1.dir/Client_1/client_1.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  INCLUDES = -I/opt/homebrew/Cellar/openssl@3/3.3.2/include
-  OBJECT_DIR = CMakeFiles/Client.dir
-  OBJECT_FILE_DIR = CMakeFiles/Client.dir/Client
+  INCLUDES = -I/opt/homebrew/Cellar/openssl@3/3.3.2/include -I/opt/homebrew/Cellar/libpcap/1.10.5/include
+  OBJECT_DIR = CMakeFiles/Client_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/Client_1.dir/Client_1
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Client
+# Link build statements for EXECUTABLE target Client_1
 
 
 #############################################
-# Link the executable Client
+# Link the executable Client_1
 
-build Client: CXX_EXECUTABLE_LINKER__Client_Debug CMakeFiles/Client.dir/Client/client.cpp.o | /opt/homebrew/Cellar/openssl@3/3.3.2/lib/libssl.dylib
+build Client_1: CXX_EXECUTABLE_LINKER__Client_1_Debug CMakeFiles/Client_1.dir/Client_1/client_1.cpp.o | /opt/homebrew/Cellar/openssl@3/3.3.2/lib/libssl.dylib
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   LINK_LIBRARIES = /opt/homebrew/Cellar/openssl@3/3.3.2/lib/libssl.dylib
-  OBJECT_DIR = CMakeFiles/Client.dir
+  OBJECT_DIR = CMakeFiles/Client_1.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = Client
-  TARGET_PDB = Client.dbg
+  TARGET_FILE = Client_1
+  TARGET_PDB = Client_1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Client_2
+
+
+#############################################
+# Order-only phony target for Client_2
+
+build cmake_object_order_depends_target_Client_2: phony || CMakeFiles/Client_2.dir
+
+build CMakeFiles/Client_2.dir/Client_2/client_2.cpp.o: CXX_COMPILER__Client_2_Debug /Users/vladimirskobcov/Desktop/Labs/Crypto/Crypto_1-3/Client_2/client_2.cpp || cmake_object_order_depends_target_Client_2
+  DEP_FILE = CMakeFiles/Client_2.dir/Client_2/client_2.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  INCLUDES = -I/opt/homebrew/Cellar/openssl@3/3.3.2/include -I/opt/homebrew/Cellar/libpcap/1.10.5/include
+  OBJECT_DIR = CMakeFiles/Client_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Client_2.dir/Client_2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Client_2
+
+
+#############################################
+# Link the executable Client_2
+
+build Client_2: CXX_EXECUTABLE_LINKER__Client_2_Debug CMakeFiles/Client_2.dir/Client_2/client_2.cpp.o | /opt/homebrew/Cellar/openssl@3/3.3.2/lib/libssl.dylib
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  LINK_LIBRARIES = /opt/homebrew/Cellar/openssl@3/3.3.2/lib/libssl.dylib
+  OBJECT_DIR = CMakeFiles/Client_2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Client_2
+  TARGET_PDB = Client_2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Sniffer
+
+
+#############################################
+# Order-only phony target for Sniffer
+
+build cmake_object_order_depends_target_Sniffer: phony || CMakeFiles/Sniffer.dir
+
+build CMakeFiles/Sniffer.dir/Sniffer/sniffer.cpp.o: CXX_COMPILER__Sniffer_Debug /Users/vladimirskobcov/Desktop/Labs/Crypto/Crypto_1-3/Sniffer/sniffer.cpp || cmake_object_order_depends_target_Sniffer
+  DEP_FILE = CMakeFiles/Sniffer.dir/Sniffer/sniffer.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  INCLUDES = -I/opt/homebrew/Cellar/openssl@3/3.3.2/include -I/opt/homebrew/Cellar/libpcap/1.10.5/include
+  OBJECT_DIR = CMakeFiles/Sniffer.dir
+  OBJECT_FILE_DIR = CMakeFiles/Sniffer.dir/Sniffer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Sniffer
+
+
+#############################################
+# Link the executable Sniffer
+
+build Sniffer: CXX_EXECUTABLE_LINKER__Sniffer_Debug CMakeFiles/Sniffer.dir/Sniffer/sniffer.cpp.o | /opt/homebrew/Cellar/libpcap/1.10.5/lib/libpcap.dylib
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  LINK_LIBRARIES = /opt/homebrew/Cellar/libpcap/1.10.5/lib/libpcap.dylib
+  OBJECT_DIR = CMakeFiles/Sniffer.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Sniffer
+  TARGET_PDB = Sniffer.dbg
 
 
 #############################################
@@ -140,7 +206,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/vladimirskobcov/Desktop/Labs/Crypto/Crypto_1-3/cmake-build-debug
 
-build all: phony Server Client
+build all: phony Server Client_1 Client_2 Sniffer
 
 # =============================================================================
 # Built-in targets
